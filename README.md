@@ -61,9 +61,14 @@ The processor supports the following instruction groups:
 
 ---
 
+## 🛠 Verilog Design Notes
 
-## ▶ How to Run
+- Each processor component is defined in a **separate Verilog module**
+- Bit widths strictly follow the ISA specification
+- Full datapath integration isn't implemented.
 
-1. Assemble the test program:
-   ```bash
-   python assembler.py
+---
+
+## 📄 Notes
+
+This project follows an incremental processor design approach, starting from individual hardware components and progressing toward a complete processor implementation.
